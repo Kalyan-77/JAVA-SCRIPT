@@ -1,0 +1,78 @@
+let b=10
+function x(){
+    console.log(b)
+}
+x()
+
+let a=10
+b=20
+console.log(a)
+console.log(b)
+
+let c=10
+console.log(c*2)
+
+let d=9.9
+console.log(d)
+
+let e=10+2
+console.log(e)
+
+let f=100
+function x(){
+    function y(){
+        function z(){
+            console.log(f)
+        }
+        x()
+    }
+    y()
+}
+z()
+console.log('hello world')
+ if(true){
+ console.log('inside if condition')
+ }
+ console.log('bye ')
+
+
+//function declaration
+// function greetings(salutation, name){
+
+//     console.log('hello ' + salutation + " " +  name)
+// }
+// greetings('Mr','john')
+
+
+//scope
+//global , local scope
+
+// let username = 'John' //inside the global scope
+
+// //a function can access the variable from outer scope
+// function printName(){ //function is also inside the global scope
+//     let username = 'peter'
+//     console.log(username)
+// }
+// printName()
+
+
+
+//a function can access the variable from outer scope
+// function printName(){ //function is also inside the global scope
+//     let username = 'peter'
+
+// }
+// printName()
+// console.log(username)
+
+// //functions
+
+// let a = 10
+// x()
+// function x() {
+//     let a = 20
+//     console.log(a)
+// }
+
+
